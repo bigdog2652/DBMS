@@ -1,0 +1,48 @@
+<!--Nick Kraus-->
+<!--Database Management Systems-->
+<!--12/4/25-->
+<!--Login Page - Final Project-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Log In</title>
+        <link rel="icon" href="https://alumlc.org/img/uploads/31576_1695145979.jpg" type="image/x-icon">
+        <style>
+            body {
+                background-color: #9e1b32; color: white;
+            }
+            label {
+                font-family: arial;
+                font-size: 20px;
+            }
+            input {
+                background-color: grey;
+                color: white;
+            }
+        </style>        
+    </head>
+    <body style="text-align: center">
+
+        <img src="https://www.sju.edu/sites/mergersjuedu/files/styles/2_1_1600x800/public/2025-07/sju-sunrise-aerial-2021-3200x1600-dev-optimized.jpg?h=e2bcc475&itok=pdlkmSYV"
+         height="275" width="700" style="border: 3px solid black">
+
+        <h1>Saint Joseph's University Course Registration<h1>
+
+        <hr>
+
+        <form action="/login" method="post">
+            <label>
+                Email: <br>
+                <input type="email" placeholder="username@sju.edu" name="email" required> <br>
+            </label>
+
+        
+            <label>
+                Password: <br>
+                <input type="password" placeholder="************" name="password" required> 
+            </label><br>
+
+            <input type="submit" style="color: white; background-color: grey;" value="Submit">
+        </form>
+    </body>
+</html>

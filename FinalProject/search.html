@@ -1,0 +1,43 @@
+<!--Nick Kraus-->
+<!--Database Management Systems-->
+<!--12/4/25-->
+<!--Search Page - Final Project-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search Courses</title>
+        <link rel="icon" href="https://alumlc.org/img/uploads/31576_1695145979.jpg" type="image/x-icon">
+    </head>
+    <style>
+        body {
+            background-color: #9e1b32; 
+            color: white;
+            text-align: center;
+        }
+        input {
+            background-color: grey;
+            color: white;
+        }
+    </style>
+    <body>
+        <p> 
+            <a href="/update" style="color: white;">Update Class</a> |        
+            <a href="/register" style="color: white;">Register</a> |        
+            <a href="/drop" style="color: white;">Drop Class</a> |
+            <a href="/menu" style="color: white;">Home</a>
+        </p>
+
+        <hr>
+
+        <h1>Search Courses</h1>
+
+        <form method="POST" action="/search">
+            <label>Keyword:</label> <br>
+            <input type="text" name="keyword" placeholder="Enter course name or code" required> <br> <br>
+            <input type="submit" value="Search"> <br>
+        </form>
+
+        <hr>
+
+    </body>
+</html>

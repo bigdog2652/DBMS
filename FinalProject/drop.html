@@ -1,0 +1,42 @@
+<!--Nick Kraus-->
+<!--Database Management Systems-->
+<!--12/4/25-->
+<!--Drop Page - Final Project-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>  
+        <title>Drop</title>
+        <link rel="icon" href="https://alumlc.org/img/uploads/31576_1695145979.jpg" type="image/x-icon">
+    </head>
+    <style>
+        body {
+            background-color: #9e1b32; 
+            color: white;
+            text-align: center;
+        }
+        input {
+            background-color: grey;
+            color: white;
+        }
+    </style>
+    <body>
+        <p> 
+            <a href="/update" style="color: white;">Update Class</a> |        
+            <a href="/search" style="color: white;">Search Courses</a> |        
+            <a href="/register" style="color: white;">Register</a> |
+            <a href="/menu" style="color: white;">Home</a>
+        </p>
+
+        <hr>
+
+        <h1>Drop</h1>
+
+        <form method="post" action="/drop">
+            <label>Section ID:</label> <br>
+            <input type="text" name="course_id" placeholder="Enter Section ID" required> <br> <br>
+            <input type="submit" value="Drop"> <br>
+        </form>
+
+        <hr>
+    </body>
+</html>
